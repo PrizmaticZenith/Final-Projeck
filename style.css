@@ -130,6 +130,23 @@ section::before {
     content: 'Database';
 }
 
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
 @keyframes updown {
     0% {
         transform: translateY(0);
